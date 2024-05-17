@@ -127,7 +127,7 @@ If you installed docker-ce-cli package, it already ships with bash-completion fi
 
 Download bash completion file from [https://github.com/docker/docker-ce/blob/master/components/cli/contrib/completion/bash/docker](https://github.com/docker/docker-ce/blob/master/components/cli/contrib/completion/bash/docker) into /etc/bash_completion.d
 ```
-curl [https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker](https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker) -o /etc/bash_completion.d/docker.sh
+curl https://raw.githubusercontent.com/docker/docker-ce/master/components/cli/contrib/completion/bash/docker -o /etc/bash_completion.d/docker.sh
 ```
 
 Logout and login again.
