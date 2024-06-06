@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"f415d016af5f0840","type":"group","x":-1060,"y":-2260,"width":2504,"height":2400,"color":"1","label":"Stack"},
+		{"id":"0f0350b3808eccb3","type":"group","x":-1040,"y":-1680,"width":2464,"height":1800,"color":"5","label":"SWARM🐳"},
+		{"id":"590f098744b237c6","type":"group","x":-340,"y":-1560,"width":1744,"height":1640,"color":"6","label":"Service"},
+		{"id":"d6976fade66710cc","type":"group","x":-320,"y":-1020,"width":1704,"height":1080,"color":"#0092e6","label":"Docker Container"},
+		{"id":"132f4b1d5e10df7e","type":"group","x":-1000,"y":-1600,"width":640,"height":1680,"color":"6","label":"SWARM Concepts"},
+		{"id":"dd57f2c31f52d700","type":"group","x":-320,"y":-1480,"width":1704,"height":360,"color":"2","label":"Docker Compose"},
+		{"id":"b275ce35a932c6f0","type":"group","x":520,"y":-940,"width":820,"height":520,"color":"4","label":"Docker image"},
+		{"id":"690e0dac4e382c77","type":"text","text":"![[7. Docker Compose#1. Compose-file]]","x":-300,"y":-1460,"width":528,"height":320},
+		{"id":"20134164f584b9bc","type":"file","file":"2Projects🌽/Docker Mastery/SWARM/3. Swarm Cluster.md","x":-960,"y":-1460,"width":560,"height":348,"color":"6"},
+		{"id":"02f95ea90cdad73a","type":"text","text":"![[5. Swarm stack & Production Grade Compose#Deploy in YML for Docker-stack]]","x":-185,"y":-2240,"width":774,"height":440},
+		{"id":"3fea0312ac819e06","type":"text","text":"![[5. Swarm stack & Production Grade Compose#2. Docker stack commands]]","x":630,"y":-2240,"width":774,"height":440},
+		{"id":"1f217ee5a648cc4b","type":"text","text":"![[5. Swarm stack & Production Grade Compose#1. Swarm Compose-file]]","x":-1000,"y":-2240,"width":774,"height":440},
+		{"id":"6a69e1d001f65e55","type":"file","file":"2Projects🌽/Docker Mastery/Docker/3. Docker container.md","x":-280,"y":-940,"width":760,"height":956},
+		{"id":"bcf0a8b3258a43d4","type":"file","file":"2Projects🌽/Docker Mastery/SWARM/4. Overlay Multi-Host Networking.md","x":-960,"y":-1072,"width":560,"height":345,"color":"6"},
+		{"id":"aa550d7e2a51012c","type":"text","text":"![[5. Docker image#Dockerfile]]","x":1000,"y":-887,"width":340,"height":180},
+		{"id":"828721ab88ade29c","type":"file","file":"2Projects🌽/Docker Mastery/Docker/5. Docker image.md","x":560,"y":-887,"width":400,"height":398},
+		{"id":"4cf300214afa5001","type":"text","text":"![[5. Docker image#Using Docker Hub Registry Images]]","x":1000,"y":-667,"width":340,"height":178},
+		{"id":"23efb5ad3cd86f0f","type":"text","text":"![[2. Swarm Commands & Setting Up#Docker Node Commands]]","x":-960,"y":-294,"width":560,"height":354,"color":"6"},
+		{"id":"6375596e796534c6","type":"text","text":"![[2. Swarm Commands & Setting Up#Docker Service Commands]]","x":-960,"y":-688,"width":560,"height":354,"color":"6"},
+		{"id":"b066a0c8fee3977e","type":"file","file":"2Projects🌽/Docker Mastery/Docker/4. Docker network.md","x":1000,"y":-380,"width":340,"height":178},
+		{"id":"f23a8bd9ce4480a0","type":"file","file":"2Projects🌽/Docker Mastery/Docker/2. Docker Run Commands.md","x":520,"y":-380,"width":440,"height":396},
+		{"id":"c32319937288051c","type":"text","text":"![[6. Container Lifetime & Persistent Data#Docker Volume Commands]]","x":1000,"y":-162,"width":340,"height":178},
+		{"id":"1fc20ab0592a787a","type":"text","text":"![[7. Docker Compose#2. Docker-Compose CLI]]","x":840,"y":-1460,"width":528,"height":320},
+		{"id":"a0135d026b2305cc","type":"text","text":"![[7. Docker Compose#Build in YML for Docker-compose]]","x":260,"y":-1460,"width":528,"height":320}
+	],
+	"edges":[
+		{"id":"d8484b17e6160ede","fromNode":"b275ce35a932c6f0","fromSide":"top","toNode":"a0135d026b2305cc","toSide":"bottom","color":"2"}
+	]
+}
