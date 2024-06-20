@@ -33,7 +33,7 @@ echo nameserver 8.8.8.8 > /etc/resolve.conf
 اما مشکل اینجاست که با اجرای کانتینتر هایی مثل node امکان تغییر ریزالور را ندارم و نمیتوانم از داخل کانتینر به اینترنت وصل شوم. 
 از طرفی برای ساخت image دستور تغییر ریزاولر را نمیتوان در همه Dockerfile ها قرار داد، چرا که برخی از اونها مثل node این امکان رو ندارند که در داخل آنها DNS را تغییر داد.
 ```bash
- mmzare@:)Linux~$: docker image build -t sushi2 .
+ Linux@:)bash~$: docker image build -t sushi2 .
 [+] Building 0.4s (6/11)                         docker:default
  => [internal] load build definition from Dockerfile                   0.0s
  => => transferring dockerfile: 304B                                   0.0s
