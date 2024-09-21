@@ -4,7 +4,7 @@
 
 Here is a basic diagram of how the 5 services will work:
 
-![diagram](./architecture.png)
+![diagram](architecture.png)
 
 - All images are on Docker Hub, so you should use editor to craft your commands locally,
 then paste them into swarm shell (at least that's how I'd do it)

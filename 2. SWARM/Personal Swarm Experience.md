@@ -3,7 +3,7 @@ tags:
   - docker
   - automation
   - swarm
-up: "[[1. SWARM Concept]]"
+up: "[[1. SWARM Concepts]]"
 date: 2024-05-17
 ---
 ## multi server

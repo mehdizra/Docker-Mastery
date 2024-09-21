@@ -4,7 +4,7 @@ tags:
   - linux
   - network
   - image
-up: "[[1. Docker concept]]"
+up: "[[1. Docker Concepts]]"
 date: 2024-03-13
 ---
 ### Connecting Docker Desktop Containers To The Internet
@@ -137,23 +137,23 @@ Logout and login again.
 این یعنی دو کانتینر میتوانند همزمان روی یک فایل کار کنند:
 سوال: باید عوارض این موضوع را بررسی کنم؟
 ```bash
-mmzare@:DLinux~$:)docker container run -d --name database -e POSTGRES_HOST_AUTH_METHOD=trust -v db:/var/lib/postgresql/data postgres
+Linux~$:)docker container run -d --name database -e POSTGRES_HOST_AUTH_METHOD=trust -v db:/var/lib/postgresql/data postgres
 bcf90681854526648da3c283122ccee041537f41eb92cea8a12211ee86b8a551
-mmzare@:DLinux~$:)docker container run -d --name database2 -e POSTGRES_HOST_AUTH_METHOD=trust -v db:/var/lib/postgresql/data postgres
+Linux~$:)docker container run -d --name database2 -e POSTGRES_HOST_AUTH_METHOD=trust -v db:/var/lib/postgresql/data postgres
 44da0b807bb1add72f11c82336138b3bb44f9ba1d25dc94e06e64c0a9c03e0a7
-mmzare@:DLinux~$:)docker exec -it database bash
+Linux~$:)docker exec -it database bash
 root@bcf906818545:/# touch /var/lib/postgresql/data/test.txt
 root@bcf906818545:/# exit
 exit
-mmzare@:DLinux~$:)docker exec -it database2 bash
+Linux~$:)docker exec -it database2 bash
 root@44da0b807bb1:/# ls /var/lib/postgresql/data/test.txt
 /var/lib/postgresql/data/test.txt
 root@44da0b807bb1:/# echo hello >> /var/lib/postgresql/data/test.txt
 root@44da0b807bb1:/# exit
 exit
-mmzare@:DLinux~$:)docker exec database cat /var/lib/postgresql/data/test.txt
+Linux~$:)docker exec database cat /var/lib/postgresql/data/test.txt
 hello
-mmzare@:DLinux~$:)docker exec database2 cat /var/lib/postgresql/data/test.txt
+Linux~$:)docker exec database2 cat /var/lib/postgresql/data/test.txt
 hello
 ```
 

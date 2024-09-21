@@ -2,7 +2,7 @@
 tags:
   - docker
   - linux
-up: "[[1. Docker concept]]"
+up: "[[1. Docker Concepts]]"
 date: 2024-03-12
 ---
 [What is advantage of Tini?](https://github.com/krallin/tini/issues/8)
